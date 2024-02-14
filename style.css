@@ -1,67 +1,47 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    
+
 }
 
-
-.navbar{
-background-color: #000000;
-opacity: 0.7;
-font-family:Arial, Helvetica, sans-serif ;
-display: flex;
-justify-content: space-around;
-align-items: center;
-}
-
-ul{
+.navbaR {
     display: flex;
-    align-items: center;
-    justify-content: space-around;
-    color: rgb(187, 177, 177);
-    list-style: none;
-    width: 90%;
-    padding: 18px 0px;
-    margin: 0 20px;
-    font-family:  SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+height: 50px;
+width: 100%;
+background-color: #161617CC;
+color:#FFFFFF;
+
+}
+ 
+/* incons-size-set */
+.fa-apple{
     font-size: 1rem;
 }
 
-.hero-section-1{
-    background-image: url(./assets/Image1.jpg);
-    width: 100%;
-    height: 570px;
-    background-repeat: no-repeat
-    ;
-    background-position: center;
+.fa-magnifying-glass {
+    font-size: 1rem;
 }
 
-.hero-sec-1-contant{
+.fa-briefcase {
+    font-size: 1rem;
+}
+
+
+ul {
     display: flex;
-flex-direction: column;
-justify-content: flex-end;
-height: 90%;
-width: 100%;
-align-items: center;
+    justify-content: space-around;
+    width: 80%;
+margin:auto ;
+opacity: 0.7;
+    list-style: none;
+    font-size:0.8rem ;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 
-
-.hero-sec-1-contant h2{
-    font-weight: 900;
-    font-size:3.5rem;
-    padding-bottom: 6px;
-}
-
-#sec-line{
-    font-size: 1.6rem;
-    font-weight: 250px;
-}
-
-#thir-line{
+li a{
+    text-decoration: none;
     color: white;
-
 }
 
-
- 
