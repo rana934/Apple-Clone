@@ -1,83 +1,402 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Apple clone</title>
 
     <!-- link-css -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
 
     <!-- link fontawesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-</head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
 
-<body>
+<!-- bootstrap-cdn -->
+<link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
 
-    <!-- navbar -->
-  <div class="navbaR">
-    <ul>
-        <li>
+  </head>
+
+  <body>
+    <div id="main-container">
+      <!-- navbar -->
+      <div class="navbaR">
+        <ul class="navbar-ulk">
+          <li class="navbar-lik">
             <i class="fa-brands fa-apple"></i>
-        </li>
+          </li>
 
-        <li>
-            <a href="#">Store</a>
-        </li>
+          <li class="navbar-lik">
+            <a class="navbar-a" href="#">Store</a>
+          </li>
 
-        <li>
-<a href="#">Mac</a>
-        </li>
+          <li class="navbar-lik">
+            <a class="navbar-a" href="#">Mac</a>
+          </li>
 
-        <li>
-<a href="#">iPad</a>
-        </li>
+          <li class="navbar-lik">
+            <a class="navbar-a" href="#">iPad</a>
+          </li>
 
-        <li>
-<a href="#">iPhone</a>
-        </li>
+          <li class="navbar-lik">
+            <a href="#">iPhone</a>
+          </li>
 
-        <li>
-<a href="#">Watch</a>
-        </li>
+          <li class="navbar-lik">
+            <a href="#">Watch</a>
+          </li>
 
-        <li>
-<a href="#">Vision</a>
-        </li>
+          <li class="navbar-lik">
+            <a href="#">Vision</a>
+          </li>
 
-        <li>
-<a href="#">AirPods</a>
-        </li>
+          <li class="navbar-lik">
+            <a href="#">AirPods</a>
+          </li>
 
-        <li>
-<a href="#">Tv & Home</a>
-        </li>
+          <li class="navbar-lik">
+            <a href="#">Tv & Home</a>
+          </li>
 
-        <li>
-<a href="#">Entertainment</a>
-        </li>
+          <li class="navbar-lik">
+            <a href="#">Entertainment</a>
+          </li>
 
-        <li>
-<a href="#">Accessories</a>
-        </li>
+          <li class="navbar-lik">
+            <a href="#">Accessories</a>
+          </li>
 
-        <li>
-<a href="#">Support</a>
-        </li>
+          <li class="navbar-lik">
+            <a href="#">Support</a>
+          </li>
 
-        <li>
+          <li class="navbar-lik">
             <i class="fa-solid fa-magnifying-glass"></i>
-        </li>
+          </li>
 
-        <li>
+          <li class="navbar-lik">
             <i class="fa-solid fa-briefcase"></i>
-        </li>
+          </li>
+        </ul>
+      </div>
 
+      <hero-section>
+        <!-- first-section -->
+        <div class="first-container">
+          <div class="first-hero-sec">
+            <h1 class="vision-pro">
+              <i class="fa-brands fa-apple hero-first-section-apple"></i> Vision
+              Pro
+            </h1>
+            <h2 class="welcome-etc">
+              Welcome to the era os special computing.
+            </h2>
+            <h3 class="Available-etc">Available starting 2.2</h3>
 
-    </ul>
+            <div class="anchor">
+              <a href="#"
+                >Learn More <i class="fa-solid fa-greater-than"></i
+              ></a>
+              <a href="#">Pre-order <i class="fa-solid fa-greater-than"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- second-section -->
+        <div class="second-container">
+          <div class="second-hero-sec">
+            <h1 class="ipad-etc">iPhone 15 Pro</h1>
+            <h2 class="Titanium-etc">Titanium. So strong. So light. So Pro.</h2>
+            <div class="anchor-second-sec">
+            <a href="#">
+                Learn More
+                <i class="fa-solid fa-greater-than"></i
+              ></a>
+              <a href="#">
+                Buy
+                <i class="fa-solid fa-greater-than"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- section-3 -->
+        <div class="third-container">
+          <div class="third-hero-sec">
+            <h1 class="iphone-15">iPhone 15</h1>
+            <h2 class="new-etc">New camera. New desing. Newphoria.</h2>
+            <div class="anchor-third-sec">
+              <a href="#">
+                Learn More
+                <i class="fa-solid fa-greater-than"></i>
+              </a>
+              <a href="#">
+                Buy
+                <i class="fa-solid fa-greater-than"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- section-4 -->
+        <!-- first-card -->
+
+        <div class="first-sec-card">
+          <div class="first-card">
+            <h1 class="watchs">
+              <i class="fa-brands fa-apple hero-first-card-apple"></i>
+              Watch
+            </h1>
+            <h2 class="unity-etc first-card-content">Unity in bloom.</h2>
+            <div class="anchor-first-card">
+              <a href="#"> Explore the new </a>
+              <a href="#"
+                >Block Unity Sport band
+                <i class="fa-solid fa-greater-than"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- second-card -->
+          <div class="second-card">
+            <h1 class="watches">
+              <i class="fa-brands fa-apple hero-second-card-apples"></i>
+              Watch
+            </h1>
+            <h2 class="unity-etc series-4-2">SERIES 9</h2>
+
+            <h3 class="smart-etcs">Smart. Brighter. Mighter</h3>
+            <div class="anchor-second-card">
+              <a href="#"
+                >Learn More
+                <i class="fa-solid fa-greater-than"></i>
+              </a>
+              <a href="#">
+                Buy
+                <i class="fa-solid fa-greater-than"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- section-5 cards -->
+        <!-- first-card -->
+        <div class="section-five-cards">
+          <div class="sec-five-first-card">
+            <h1 class="watch">
+              <i class="fa-brands fa-apple hero-second-card-apple"></i>
+              Watch
+            </h1>
+            <h2 class="unity-etc series">ULTRA 2</h2>
+
+            <h3 class="smart-etc">Next level adventure.</h3>
+            <div class="anchor-second-card">
+              <a href="#"
+                >Learn More
+                <i class="fa-solid fa-greater-than"></i>
+              </a>
+              <a href="#">
+                Buy
+                <i class="fa-solid fa-greater-than"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- second-card -->
+          <div class="sec-five-second-card">
+            <h2 class="watch-sec-five-2">
+              MacBook Pro
+            </h2>
+            <h3 class="smart-etcs">Mind-blowing. Head-turning.</h3>
+            <div class="anchor-second-card">
+              <a href="#"
+                >Learn More
+                <i class="fa-solid fa-greater-than"></i>
+              </a>
+              <a href="#">
+                Buy
+                <i class="fa-solid fa-greater-than"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <!-- section 6 -->
+        <!-- first-card -->
+        <div class="sec-six-cards">
+
+            <div class="sec-six-first-card">
+                <h1 class="watch">
+                  <i class="fa-brands fa-apple hero-second-card-apple"></i>
+                  Card
+                </h1>
+                <h3 class="smart-etc">Get up To 3% Daily Cash back <h3 class="with-etc">with every purchase.</h3></h3>
+                <div class="anchor-second-card">
+                  <a href="#"
+                    >Learn More
+                    <i class="fa-solid fa-greater-than"></i>
+                  </a>
+                  <a href="#">
+                    Buy
+                    <i class="fa-solid fa-greater-than"></i>
+                  </a>
+                </div>
+              </div>
+    
+              <!-- second-card -->
+              <div class="sec-six-second-card">
+                <h1 class="watch">
+                  <i class="fa-brands fa-apple hero-second-card-apple"></i>
+                  Trade In
+                </h1>
+                <h3 class="smart-etc">Get $180-$620 in credit when <h3 class="with-etc">you tradein iPhone 11 or higher.</h3>
+            </h3>
+                <div class="anchor-second-card">
+                  <a href="#"
+                    >See what your device is worth
+                    <i class="fa-solid fa-greater-than"></i>
+                  </a>
+                </div>
+              </div>
+    
+        </div>
+      </hero-section>
+
+      <!-- section-seve -->
+<!-- bootstrap-slider -->
+<div id="carouselExampleFade" class="carousel slide carousel-fade">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./slider images/44 Impressive Examples of Reflection Photography _ The Jotform Blog.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./slider images/Banff Helicopter Elopement Photographers _ Film & Forest Photography.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./slider images/download.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
   </div>
-</body>
+
+<!-- section-eight -->
+<div class="section-eight">
+<div class="section-eight-content">
+<p>1. Trade-in values will vary based on the condition, year, and configuration of your eligible trade-in device. Not all devices are eligible for credit. You must be at least 18 years old to be eligible to trade in for credit or for an Apple Gift Card. Trade-in value may be applied toward qualifying new device purchase, or added to an Apple Gift Card. Actual value awarded is based on receipt of a qualifying device matching the description provided when estimate was made. Sales tax may be assessed on full value of a new device purchase. In-store trade-in requires presentation of a valid photo ID (local law may require saving this information). Offer may not be available in all stores, and may vary between in-store and online trade-in. Some stores may have additional requirements. Apple or its trade-in partners reserve the right to refuse or limit quantity of any trade-in transaction for any reason. More details are available from Apple’s trade-in partner for trade-in and recycling of eligible devices. Restrictions and limitations may apply. <br> <br>
+    Available in the U.S. on <u> apple.com,</u> in the Apple Store app, and at Apple Stores. <br> <br>
+    To access and use all Apple Card features and products available only to Apple Card users, you must add Apple Card to Wallet on an iPhone or iPad that supports and has the latest version of iOS or iPadOS. Apple Card is subject to credit approval, available only for qualifying applicants in the United States, and issued by Goldman Sachs Bank USA, Salt Lake City Branch. <br> <br>
+    If you reside in the U.S. territories, please call Goldman Sachs at 877-255-5923 with questions about Apple Card. <br> <br>
+    Learn more about how Apple Card applications are evaluated at <u> support.apple.com/kb/HT209218.</u> <br> <br>
+    A subscription is required for Apple TV+.</p>
+</div>
+</div>
+
+<!-- footer -->
+<div class="footer">
+<div class="footer-content">
+<ul class="ul">
+    <li class="shop-etc">Shop and Learn</li>
+    <li>Store</li>
+    <li>Mac</li>
+    <li>iPad</li>
+    <li>iPhone</li>
+    <li>watch</li>
+    <li>vision</li>
+    <li>airPods</li>
+    <li>TV & Home </li>
+    <li>AirTag</li>
+    <li>accessories</li>
+    <li>git cards</li> <br> 
+    <li class="shop-etc">apple wallet</li>
+    <li>wallet</li>
+    <li>apple card</li>
+    <li>apple pay</li>
+    <li>apple cash</li>
+</ul>
+
+<ul class="ul">
+    <li class="shop-etc">account</li>
+    <li>manage your apple id</li>
+    <li>apple store account</li>
+    <br>
+    <li class="shop-etc">entertainment</li>
+    <li>apple one</li>
+    <li>apple tV+</li>
+    <li>apple music</li>
+    <li>apple arcade</li>
+    <li>apple fitness+ </li>
+    <li>apple news+</li>
+    <li>apple prodacats</li>
+    <li>apple books</li> 
+    <li>app store</li>
+</ul>
+
+<ul>
+    <li class="shop-etc">Appple store</li>
+    <li>find a store</li>
+    <li>genius bar</li>
+    <li>today at apple</li>
+    <li>apple camp</li>
+    <li>apple store app </li>
+    <li>certified refurbished</li>
+    <li>apple trade in</li>
+    <li>carrier deals at apple</li> 
+    <li>order status</li>
+    <li>shopping help</li>
+</ul>
+
+<ul>
+    <li class="shop-etc">for business</li>
+    <li>apple and business</li>
+    <li>shop for business</li> <br>
+    <li class="shop-etc">for education</li>
+    <li>apple and education</li>
+    <li>shop for k-12</li>
+    <li>shop for collage</li> <br>
+    <li class="shop-etc">for healthcare</li>
+    <li>apple in helthcare </li>
+    <li>helth on apple watch</li>
+    <li>helth records on i phone</li> <br>
+    <li class="shop-etc">for goverment</li>  
+    <li>shop for goverment</li>
+    <li>shop for veterans and miltary</li>
+</ul>
+
+<ul>
+    <li class="shop-etc">app values</li>
+    <li>accessibility</li>
+    <li>education</li>
+    <li>enviroment</li>
+    <li>inclusion and diversity</li>
+    <li>privicy</li>
+    <li>racial equity and justice</li>
+    <li>supplier responsibility</li> <br>
+    <li class="shop-etc">about apple </li>
+    <li>newsroom</li>
+    <li>apple leadership</li>
+    <li>career opportunities</li>  
+    <li>investors</li>
+    <li>ethics & complince</li>
+    <li>events</li>
+    <li>contact apple</li>
+</ul>
+</div>
+</div>
+<div class="footer-end">
+    <p class="Copyright"> <span class="copy-right"> Copyright © 2024 Apple Inc. All rights reserved.</span> <span class="privicy-policy"> privicy policy | terms of use | sales and refuds | legal | site map</span> <span class="pakistan"> pakistan</span></p>
+</div>
+</div>
+
+    <!-- bootstrap java-script cdn -->
+<script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
-
-
